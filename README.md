@@ -26,7 +26,7 @@ Here's an example data dictionary in JSON.
 		"id": "0x100",
 		"extended": false,
 		"length": 8,
-		"nominal_rate": 0.1
+		"nominal_rate": 0.1,
 		"signals": [{
 			"name": "EngineSpeed",
 			"unit": "1/min",
