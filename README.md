@@ -52,3 +52,9 @@ Here's a sample format for recording CAN data. First line is optional and contai
 {"timestamp": 1465332213.3344, "bus": 1, "id": "0x100", "data": "0x6634567812345678"}
 {"timestamp": 1465332213.3444, "bus": 1, "id": "0x100", "data": "0x7734567812345678"}
 ```
+
+## License
+
+These data format is available under the Creative Commons Public Domain Dedication (CC0) license.
+
+Inspired by [the OpenXC message format.](https://github.com/openxc/openxc-message-format)
