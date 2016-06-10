@@ -11,6 +11,7 @@ Here's an example data dictionary in JSON.
 
 ```json
 {
+	"fileformat": "carloop-v1",
 	"description": "Ford Fiesta Gen 4",
 	"vehicles": [{
 		"make": "Ford",
