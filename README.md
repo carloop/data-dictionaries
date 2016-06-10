@@ -23,6 +23,7 @@ Here's an example data dictionary in JSON.
 		"speed": 500000
 	}],
 	"messages": [{
+		"name": "EngineStatus1",
 		"id": "0x100",
 		"extended": false,
 		"length": 8,
@@ -32,9 +33,9 @@ Here's an example data dictionary in JSON.
 			"unit": "1/min",
 			"description": "Engine speed",
 			"start_bit": 8,
-			"length": 16,
+			"bit_length": 16,
 			"bit_order": "little_endian",
-			"slope": 0.01,
+			"factor": 0.01,
 			"offset": 0
 		}]
 	}]
